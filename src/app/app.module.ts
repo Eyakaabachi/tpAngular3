@@ -12,9 +12,8 @@ import { PublicModule } from './public/public.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    PrivateModule,
-    PublicModule
+    AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
