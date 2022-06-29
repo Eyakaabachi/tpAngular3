@@ -12,7 +12,8 @@ import { PublicModule } from './public/public.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
 
   ],
   providers: [],

@@ -4,12 +4,16 @@ import { CommonModule } from '@angular/common';
 import { PublicRoutingModule } from './public-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
+import { CoursComponent } from './cours/cours.component';
+import { ExercicesComponent } from './exercices/exercices.component';
 
 
 @NgModule({
   declarations: [
     DashboardComponent,
-    ContactComponent
+    ContactComponent,
+    CoursComponent,
+    ExercicesComponent
   ],
   imports: [
     CommonModule,
